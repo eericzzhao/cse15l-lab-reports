@@ -5,7 +5,7 @@
 
 **Working Directory**: "/home"
 
-**What is happening here?** Without the proper path, entering "cd" does not switch the current working directory. 
+**What is happening here?** When the command "cd" is run on a working directory that is not "\home", it sets the working directory to "\home". When the command is run without arguments on "\home", cd still sets the working directory to the home directory. 
 
 **Possible error?** While not a massive error, it doesn't give the desired effect of changing the working directory to anything. 
 
@@ -45,7 +45,7 @@
 
 **Working Directory**: "/home"
 
-**What is happening here?**  With a proper path, the command can is able to display the files and folders inside "cse15l-lab-reports".
+**What is happening here?**  With a proper path, the command can can display the files and folders inside "cse15l-lab-reports".
 
 **Possible error?** No errors reported, all are working as intended. 
 
@@ -65,9 +65,9 @@
 
 **Working Directory**: "/home"
 
-**What is happening here?** Without the proper path, entering "cat" does not print anything. It is waiting for the user to enter a file path.
+**What is happening here?** Without the proper path, entering "cat" does not print anything. It is waiting for the user to enter a file path but will instead leave a space that will repeat user input. 
 
-**Possible error?** While not a massive error, it doesn't give the desired effect of printing the contents of one or more files without a file path. 
+**Possible error?** There are no errors as the command is waiting for user input. There will be a slot for input that will repeat any input typed into the terminal. 
 
 ---
 
