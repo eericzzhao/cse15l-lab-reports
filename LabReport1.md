@@ -1,13 +1,13 @@
 # **Lab Report 1**
-## The Command *cd*: 
+## The Command `cd` : 
 
 *No Arguments* : ![Image](Image1.png)
 
 **Working Directory**: "/home"
 
-**What is happening here?** When the command "cd" is run on a working directory that is not "/home", it sets the working directory to "/home". When the command is run without arguments on "/home", cd still sets the working directory to the home directory. 
+**What is happening here?** When the command "cd" is run on a working directory that is not "/home", it sets the working directory to "/home". When the command is run without arguments despite "/home" being already in the home directory, cd still sets the working directory to the home directory. 
 
-**Possible error?** While not a massive error, it doesn't give the desired effect of changing the working directory to anything. 
+**Possible error?** No errors reported as the command will still run fine. While not an error, running the command with the home directory being the wokring directory, it doesn't give the desired effect of changing the working directory to anything. 
 
 ---
 
@@ -30,7 +30,7 @@
 **Error** A definite error as setting the directory or the file path as an argument will produce an error as it is not a directory. 
 
 
-## The Command *ls*:
+## The Command `ls`:
 *No Arguments*: ![Image](Image2.png)
 
 **Working Directory**: "/home"
@@ -60,7 +60,7 @@
 **Error** A definite error as setting the directory or the file path as an argument will produce an error as it is not a directory that can display the contents of files and folders inside it. 
 
 
-## The Command *cat*:
+## The Command `cat`:
 *No Arguments*: ![Image](Image3.png)
 
 **Working Directory**: "/home"
