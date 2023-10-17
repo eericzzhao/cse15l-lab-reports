@@ -67,7 +67,7 @@
 
 **What is happening here?** Without the proper path, entering "cat" does not print anything. It will instead leave a space that will repeat user input. 
 
-**Possible error?** There are no errors as the command is waiting for user input. There will be a slot for input that will repeat any input typed into the terminal. 
+**Possible error?** There are no errors as the command is waiting for user input. There will be a slot for input that will repeat any input typed into the terminal, turning standard input into standard output. 
 
 ---
 
