@@ -81,4 +81,4 @@ class StringSearch {
 
 ## Part 3:
 
-While extremely finicky to set up, learning to set an SSH key for easy access to sign into my account on a local device without needing to type in the password. 
+While extremely finicky to set up, learning to set an SSH key for easy access to sign into my account on a local device without needing to type in the password. I also learned a bit more about how handle methods worked and how they are set up. 
