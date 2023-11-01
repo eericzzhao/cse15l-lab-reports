@@ -71,11 +71,13 @@ class StringSearch {
 
 **Private Key:** ![Image](Image16.png)
 
-As this is shown, ls through my ssh folder directory shows the existence of my private key. 
+As shown, ls through my ssh folder directory shows the existence of my private key. 
 
 ---
 
-**Public Key:** ![Image](Image14.png)
+**Public Key:** ![Image](Image17.png)
+
+When logged in, I have the .ssh directory, and as shown here, there is the public key in my ieng6 account. 
 
 ---
 
