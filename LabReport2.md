@@ -69,7 +69,7 @@ class StringSearch {
 
 ## Part 2: 
 
-**Private Key:** ![Image](Image13.png)
+**Private Key:** ![Image](Image16.png)
 
 ---
 
