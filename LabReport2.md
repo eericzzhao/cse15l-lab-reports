@@ -58,6 +58,7 @@ class StringSearch {
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?** The relevant arguments for those methods require the parameter separated by "s=" in the URL. The relevant fields of the class include the sequence, the ArrayList, the query, the path, and the response. 
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** The sequence increments the number list by one for the next parameter. The parameter is added to the ArrayList. When starting, the number list starts off at 0 in the code and after updating the link with new words, it starts with the list off at 1 with the newly entered words. 
+
 ![Image](Image10.png)
 
 **Which methods in your code are called?** The code has a handleRequest method and the responseWithNewLines method. 
