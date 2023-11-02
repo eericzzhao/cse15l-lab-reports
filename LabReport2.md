@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 class Handler implements URLHandler {
     private ArrayList<String> lines = new ArrayList<>();
-    private int sequence = 1; 
+    private int sequence = 0;
 
     public String handleRequest(URI url) {
         String query = url.getQuery();
@@ -18,15 +18,16 @@ class Handler implements URLHandler {
                 String toAdd = parameters[1];
                 lines.add(toAdd);
                 sequence++;
-                return responseWithNewLines();
+                return (responseWithNewLines());
             }
         }
-            return "Please add parameters!\n";
+        return "Please add parameters!\n";
     }
+
     private String responseWithNewLines() {
         StringBuilder response = new StringBuilder();
         for (int i = 0; i < lines.size(); i++) {
-            response.append(lines.get(i)).append("\n");
+            response.append(i + 1).append(": ").append(lines.get(i)).append("\n");
         }
         return response.toString();
     }
@@ -34,7 +35,7 @@ class Handler implements URLHandler {
 
 class StringSearch {
     public static void main(String[] args) throws IOException {
-        if(args.length == 0){
+        if (args.length == 0) {
             System.out.println("Missing port number! Try any number between 1024 to 49151");
             return;
         }
@@ -42,30 +43,28 @@ class StringSearch {
         int port = Integer.parseInt(args[0]);
         Server.start(port, new Handler());
     }
-}  
+}
 ```
-
-
 
 ---
 
 **Example:**
 
-![Image](Image11.png)
+![Image](Image18.png)
 
 **Which methods in your code are called?** The code has a handleRequest method and the responseWithNewLines method. 
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?** The relevant arguments for those methods require the parameter separated by "s=" in the URL. The relevant fields of the class include the sequence, the ArrayList, the query, the path, and the response. 
 
-**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** The sequence increments the number list by one for the next parameter. The parameter is added to the ArrayList. When starting, the number list starts off at 0 in the code and after updating the link with new words, it starts with the list off at 1 with the newly entered words. 
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** The sequence increments the number list by one for the next parameter. The parameter is added to the ArrayList. When starting, the number list starts off at 0 in the code and after updating the link with new words, it starts with the list off at 1 with the newly entered words. It goes from a message asking for arguments to printing the "Hello" from my ArrayList. 
 
-![Image](Image10.png)
+![Image](Image20.png)
 
 **Which methods in your code are called?** The code has a handleRequest method and the responseWithNewLines method. 
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?** The relevant arguments for those methods require the parameter separated by "s=" in the URL. The relevant fields of the class include the sequence, the ArrayList, the query, the path, and the response. 
 
-**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** The sequence is incremented again for the next parameter. The parameter is also added to the ArrayList so that the next line is the correct number list and it prints the next parameter. The incrementation of the values would mean that 1 would become 2 as it continues the list with the newly entered words, following a numbered sequence of words every single time we hit the enter. 
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** The sequence is incremented again for the next parameter. The parameter is also added to the ArrayList so that the next line is the correct number list and it prints the next parameter. The incrementation of the values would mean that 1 would become 2 as it continues the list with the newly entered words, following a numbered sequence of words every single time we hit the enter. It prints "Hello" as the first in the ordered list followed by "How are you" as the second in the list. 
 
 ## Part 2: 
 
