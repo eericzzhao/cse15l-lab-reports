@@ -52,7 +52,7 @@ After Debugging:
 
 *How did this work?:*  
 
-In order to properly create a for loop that would correctly reverse the contents inside our ArrayList, we would have to first create a for loop that would only go up to half of the total length. When we do 
+To properly create a for loop that would correctly reverse the contents inside our ArrayList, we would have to first create a for loop that would only go up to half of the total length. When we do reverse the values inside the ArrayList, we only need to reverse half of them as it effectively is just swapping opposing values so that it becomes reversed. The original code would essentially replace the values incorrectly. The fix provides a temporary variable that holds onto the original value while the index value gets replaced, so the replacing value is then swapped in for the temporary value. Consequently, this eventually outputs a reversed ArrayList of values.   
 
 -----
 ## Part 2 :  **The command `grep`**
