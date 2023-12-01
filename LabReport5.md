@@ -15,13 +15,13 @@ What am I missing? Right now, I'm stuck on how to fix these errors. Thank you.
 
 TA (Staff):
 
-Hi, rather than looking at just the ListExamplesTests.java file, as it is only testing whether your code works properly or not, maybe it is in one of your other Java file. There might be a bug in it that could be causing errors for your tests to fail. 
+Hi, rather than looking at just the ListExamplesTests.java file, as it is only testing whether your code works properly or not, maybe it is in one of your other Java files. There might be a bug in it that could be causing errors for your tests to fail. 
 
 ---
 
 Student 1:
 
-OK thank you so much! I just realized I made a mistake on how the add method works. Assigning a 0 first made any values added onto the ArrayList to print out the list backwards, not what I intended for it to do.  simple mistake of not assigning the correct variables in their methods
+OK thank you so much! I just realized I made a mistake on how the add method works. Assigning a 0 first made any values added onto the ArrayList print out the list backward, not what I intended for it to do.  I also made two simple mistakes of not assigning the correct variables in their while loops, which was why my expected tests often did not match with what was being outputted. 
 
 
 ---
