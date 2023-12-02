@@ -15,7 +15,7 @@ What am I missing? Right now, I'm stuck on how to fix these errors. Thank you.
 
 TA (Staff):
 
-Hi, rather than looking at just the ListExamplesTests.java file, as it is only testing whether your code works properly or not, maybe it is in one of your other Java files. There might be a bug in how you assigned your variables that could be causing errors for your tests to fail. You also want to make sure that when you call the merge method, is it actually using the `add` function in the manner in which you want it to be? I would also double-check how your test script file is calling the JUnit tests. Additionally, in its current state, it won't produce the output you want (unless hint hint...you're on a Linux/Mac operating system).
+Hi, rather than looking at just the ListExamplesTests.java file, as it is only testing whether your code works properly or not, maybe it is in one of your other Java files. There might be a bug in how you assign your variables that could be causing errors for your tests to fail. You also want to make sure that when you call the merge method, is it actually using the `add` function in the manner in which you want it to be? I would also double-check how your test script file is calling the JUnit tests. Additionally, in its current state, it won't produce the output you want (unless hint...you're on a Linux/Mac operating system).
 
 ---
 
