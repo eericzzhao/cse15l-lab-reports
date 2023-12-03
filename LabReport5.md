@@ -4,7 +4,7 @@
 Student 1:
 1 hour ago in General
 
-I'm having issues running the test script. I don't know why I'm getting these test errors, but whatever change I make to the ListExamplesTest.java file isn't fixing anything. To run my files I bashed a test script file to compile all of the Java files with the jar file. Then I ran the tests through it by inputting the command while in the correct directory structure:
+I'm having issues running the test script. I don't know why I'm getting these test errors, but whatever change I make to the ListExamplesTest.java file isn't fixing anything. Mainly, it's not even detecting my JUnit tests which I'm pretty sure I have setup in the bash file to correctly call on it. To run my files I bashed a test script file to compile all of the Java files with the jar file. Then I ran the tests through it by inputting the command while in the correct directory structure:
 
 
 ![Image](Image32.png)
@@ -52,7 +52,7 @@ Scrolling down, line 39 and and line 44 need their variables changed to `index1`
 ![image](Image39.png)
 
 
-Finally, you would place the `.jar` files in quotations. This would allow Java to properly detect the files and the JUnit tests. 
+Finally, you would place the `.jar` files in quotations. This would allow Java to properly detect the files and the JUnit tests. I also changed any instance in which a `:` was used with a `;` instead as I am on a Windows machine. 
 
 ![Image](Image40.png) 
 
@@ -60,4 +60,4 @@ Finally, you would place the `.jar` files in quotations. This would allow Java t
 
 ## Part 2 -- Reflection
 
-I felt that for the second half of the quarter, something that I learned before that I had not learned before would be using Vim. Learning how to edit code from the terminal is very interesting and something that I definitely need for future classes. Another one would be the `jdb` debugger. Although we only had a short introduction to it, Professor Politz taught me how to diagnose problems that allowed for step-by-step intervention in determining where the bug occurred. 
+I felt that for the second half of the quarter, something that I learned before that I had not learned before would be using Vim. Learning how to edit code from the terminal is very interesting and something that I definitely need for future classes. Another one would be the `jdb` debugger. Although we only had a short introduction to it, Professor Politz taught me how to diagnose problems that allowed for step-by-step intervention in determining where the bug occurred. Finally, I thought that this class served as a decent introduction to `Git` as I most likely have to use Github extremely often in the future, and learning the functions for it is useful. I want to thank Professor Politz and all the TAs who made this class possible, especially for whoever is reading this final sentence of my Lab Report. 
