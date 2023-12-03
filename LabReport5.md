@@ -60,3 +60,4 @@ Finally, you would place the `.jar` files in quotations. This would allow Java t
 
 ## Part 2 -- Reflection
 
+I felt that for the second half of the quarter, something that I learned before that I had not learned before would be using Vim. Learning how to edit code from the terminal is very interesting and something that I definitely need for future classes. Another one would be the `jdb` debugger. Although we only had a short introduction to it, Professor Politz taught me how to diagnose problems that allowed for step-by-step intervention in determining where the bug occurred. 
