@@ -43,8 +43,18 @@ Full Command Line You Ran to Trigger the Bug:
 
 A Description of What to Edit to Fix the Bug:
 
-Firstly, you would have to edit the ListExamplesTest.java 
+Firstly, you would have to edit the ListExamples.java file. Starting from line 15, we would remove the `0, ` portion from the add method to remove a hidden bug that would result in our filter function working as intended. 
 
+![image](Image38.png)
+
+Scrolling down, line 39 and and line 44 need their variables changed to `index1` and `index2` respectively, this would fix the bug to return the correct list. 
+
+![image](Image39.png)
+
+
+Finally, you would place the `.jar` files in quotations. This would allow Java to properly detect the files and the JUnit tests. 
+
+![Image](Image40.png) 
 
 ---
 
